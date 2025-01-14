@@ -1,7 +1,7 @@
-import { Nav } from '../components/nav'
-import FontPreview from '../components/font-preview'
+import { Nav } from '../../components/nav'
+import FontPreview from '../../components/font-preview'
 
-export default function Home() {
+export default function GeneratorPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Nav />
