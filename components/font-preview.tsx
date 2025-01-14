@@ -240,7 +240,7 @@ export default function FontPreview({ initialData }: { initialData?: ShareData }
           {/* Download and Share Buttons */}
           <div className="flex space-x-4">
             <Button onClick={handleDownload}>Download Image</Button>
-            <Button onClick={handleShare}>Generate Share Link</Button>
+            {/* <Button onClick={handleShare}>Generate Share Link</Button> */}
           </div>
 
           {/* Share Link Display */}
