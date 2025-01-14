@@ -55,10 +55,10 @@ export function GradientCustomizer({ gradient, onChange }: GradientCustomizerPro
             <RadioGroupItem value="radial" id="radial" />
             <Label htmlFor="radial">Radial</Label>
           </div>
-          <div className="flex items-center space-x-2">
+          {/* <div className="flex items-center space-x-2">
             <RadioGroupItem value="conic" id="conic" />
             <Label htmlFor="conic">Conic</Label>
-          </div>
+          </div> */}
         </RadioGroup>
       </div>
 
@@ -80,23 +80,23 @@ export function GradientCustomizer({ gradient, onChange }: GradientCustomizerPro
         <div>
           <Label>Shape</Label>
           <RadioGroup
-            value={gradient.shape || 'circle'}
-            onValueChange={(value) => updateGradient({ shape: value as 'circle' | 'ellipse' })}
+            value={gradient.shape}
+            onValueChange={(value) => updateGradient({ shape: value as 'ellipse' | 'circle' })}
             className="flex space-x-4"
           >
             <div className="flex items-center space-x-2">
               <RadioGroupItem value="circle" id="circle" />
               <Label htmlFor="circle">Circle</Label>
             </div>
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <RadioGroupItem value="ellipse" id="ellipse" />
               <Label htmlFor="ellipse">Ellipse</Label>
-            </div>
+            </div> */}
           </RadioGroup>
         </div>
       )}
 
-      {(gradient.type === 'radial' || gradient.type === 'conic') && (
+      {/* {(gradient.type === 'radial' || gradient.type === 'conic') && (
         <div className="space-y-2">
           <Label>Position</Label>
           <div className="flex space-x-4">
@@ -122,7 +122,7 @@ export function GradientCustomizer({ gradient, onChange }: GradientCustomizerPro
             </div>
           </div>
         </div>
-      )}
+      )} */}
 
       <div>
         <Label>Color Stops</Label>

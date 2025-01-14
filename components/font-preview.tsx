@@ -270,8 +270,6 @@ export default function FontPreview({ initialData }: { initialData?: ShareData }
                       onClick={() => setSelectedGradient({
                         ...gradient,
                         id: nanoid(),
-                        type: 'linear',
-          angle: 90,
           stops: gradient.colors.map((color, index) => ({
             color,
             position: index * 100 / (gradient.colors.length - 1)
