@@ -29,6 +29,10 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <script 
+ defer 
+ src="https://assets.onedollarstats.com/tracker.js"> 
+</script>
     </html>
   );
 }
