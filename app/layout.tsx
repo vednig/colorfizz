@@ -33,6 +33,7 @@ export default function RootLayout({
  defer 
  src="https://assets.onedollarstats.com/tracker.js"> 
 </script>
+<script defer src="https://sponsorapp.io/platform.js?p=7653cda4fa547eb8"></script>
     </html>
   );
 }
