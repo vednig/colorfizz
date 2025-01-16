@@ -11,7 +11,7 @@ export default function Home() {
           <sub>v1<a href="https://www.producthunt.com/posts/font-preview-generator?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-font&#0045;preview&#0045;generator" target="_blank">
           <Image
           alt='Font Preview Generator - Gradients + 💗 | Product Hunt'
-           src="https://ik.imagekit.io/jointest/preview/https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=783945&theme=light&t=1736938898805&tr=f-png"/>
+           src="https://ik.imagekit.io/jointest/preview/https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=783945&theme=light&t=1736938898805&tr=f-png&phupdate=1"/>
           </a></sub>
         </div>
       </header>
